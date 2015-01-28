@@ -1,0 +1,154 @@
+﻿#PhotoDisplay 
+{
+	width: 450px;
+	height: 450px;
+	background-color: #333333;
+	border: solid 1px #999999;
+	position: relative;
+}
+
+#PhotoDisplay.full 
+{
+	width: 690px;
+	height: 690px;
+	margin: 0px auto 0px auto;
+	border-bottom: none;
+}
+
+#PhotoDisplay .inner 
+{
+	background-color: #FFFFFF;
+	border: solid 1px #999999;
+	padding: 15px;
+}
+
+#PhotoDisplay .galleryTitle 
+{
+	font-size: 1.4em;
+	position: absolute;
+	width: 450px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	text-align: center;
+	top: 20px;
+	left: 0px;
+}
+
+#PhotoDisplay .galleryTitleFull 
+{
+	font-size: 1.4em;
+	position: absolute;
+	width: 690px;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	text-align: center;
+	top: 20px;
+	left: 0px;
+}
+
+#PhotoDisplay .photoTitle 
+{
+	font-size: 1.2em;
+	position: absolute;
+	width: 450px;
+	vertical-align: middle;
+	text-align: center;
+	bottom: 20px;
+	left: 0px;
+	
+}
+
+#PhotoDisplay .photoTitleFull 
+{
+	font-size: 1.2em;
+	position: absolute;
+	width: 690px;
+	vertical-align: middle;
+	text-align: center;
+	top: 650px;
+	left: 0px;
+}
+
+#PhotoDisplay .abstract 
+{
+	width: 550px;
+	display:block;
+	text-align: justify;
+}
+
+
+#GalleryList .item 
+{
+	background-color: #666666;
+	border: solid 1px #333333;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+	clear: both;
+}
+
+#GalleryList .item  A 
+{
+	font-size: 1.2em;
+
+}
+
+#GalleryList .item  IMG 
+{
+	float: left;
+	margin-right: 10px;
+}
+
+#Gallery 
+{
+	text-align: center;		
+}
+
+
+
+#GalleryDisplay 
+{
+
+	background-color: #333333;
+	border: solid 1px #999999;
+	border-top: none;
+	width: 690px;
+	margin: 0px auto 0px auto;
+	padding: 15px 0px 15px 0px;
+}
+
+#GalleryDisplay .title 
+{
+	font-size: 1.4em;
+	padding: 0px 15px 0px 15px;
+}
+
+#GalleryDisplay .description 
+{
+	padding: 0px 15px 0px 15px;
+	text-align: left;
+	zoom: 1;
+}
+
+#GalleryDisplay .about 
+{
+	padding: 0px 15px 0px 15px;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+#GalleryThumbs 
+{
+	width: 690px;
+	margin: 15px auto 0px auto;
+	background-color: transparent;
+	
+}
+
+#GalleryThumbs INPUT
+{
+	padding: 1px;
+	background-color: #FFFFFF;
+}
+

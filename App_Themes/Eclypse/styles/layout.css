@@ -1,0 +1,179 @@
+﻿HTML 
+{
+    
+    font-family: Trebuchet MS, Arial, Sans-Serif;
+    font-size: 10px;
+    color: #BBBBBB;
+        
+}
+
+IMG 
+{
+    border: solid 1px #FFFFFF;
+}
+
+BODY 
+{
+	background: #333333 url(../images/html-bkgd.gif) repeat-y fixed top center;
+    width: 750px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    zoom: 1;
+}
+
+IMG 
+{
+	
+}
+
+H1 
+{
+    margin: 10px 0px 20px 0px;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: normal;
+    border-bottom: solid 1px #FFFFFF;
+    color: #FFFFFF;
+ 
+}
+
+H2 
+{
+    margin: 0px 0px 0px 0px;
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: bold; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+P 
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#Header 
+{
+    background: #000000 url(../images/header.gif) no-repeat scroll top left;
+    height: 70px;
+    
+}
+
+
+#Header .login 
+{
+	float: right;	
+}
+
+#Header .login A
+{
+	font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    color: #FFFFFF;
+    text-decoration: none;	
+}
+
+#Header .login A:hover 
+{
+    text-decoration: underline;
+}
+
+
+
+#MainNav 
+{
+	background: #003366 url(../images/mainnav-bkgd.gif) no-repeat scroll top left;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 1.2em;
+    border-top: solid 1px #000000;
+    line-height: 25px;
+    height: 25px;
+    
+        
+} 
+
+#MainNav A 
+{
+	
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    color: #CCCCCC;
+    text-decoration: none;
+     
+}
+
+#MainNav A:hover 
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#MainNav .homeLink 
+{
+	float: left;
+		height: 25px;
+	line-height: 25px;
+	text-align: left;
+}
+
+#MainContent 
+{
+    background: transparent url(../images/maincontent-bkgd.gif) repeat-x scroll top left;
+    font-size: 1.2em;
+    padding: 20px;
+    zoom: 1;
+}
+
+#MainContent A
+{ 
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#MainContent A:hover
+{ 
+    text-decoration: underline;
+}
+
+#Footer 
+{
+	border-top: solid 1px #FFFFFF;
+	margin: 20px;
+	clear: both;
+	text-align: right;
+	color: #FFFFFF;	
+}
+
+
+.rightNav 
+{
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	text-align: right;
+	vertical-align: middle;
+	margin-top: -42px;
+}
+
+.floatLeft 
+{
+	float: left;	
+}
+
+.floatRight 
+{
+	float: right;	
+}
+
+.clear 
+{
+	clear: both;
+	height: 1px;
+
+}

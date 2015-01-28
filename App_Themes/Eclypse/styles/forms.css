@@ -1,0 +1,58 @@
+﻿/* STYLE DEFINITIONS FOR FIELDSET LAYOUT */
+
+FIELDSET 
+{
+    
+}
+
+FIELDSET LEGEND 
+{
+    
+}
+
+FIELDSET FIELDSET 
+{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;    
+}
+
+FIELDSET FIELDSET FIELDSET
+{
+    float: left;    
+    width: 300px; /* this width is required for proper 2-column placement */    
+}
+
+FIELDSET SPAN 
+{
+    display: block;
+	float: left;
+	margin-bottom: 10px;	
+	
+	text-align: right;
+	width: 75px;
+	padding-right: 20px;
+}
+
+
+FIELDSET BR {
+	clear: left;
+}
+
+/* styles for all interactives used within the fieldset are to be defined here */
+
+FIELDSET INPUT 
+{
+  
+}
+
+FIELDSET SELECT 
+{
+    
+}
+
+FIELDSET TEXTAREA 
+{
+    
+}
+

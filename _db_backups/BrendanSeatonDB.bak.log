@@ -1,0 +1,16 @@
+Database: brendanseatondb
+Source File: \\phx3.gdhosting.gdg\p3nwhg521\hosting\63\7856763\html\_db_backups\BrendanSeatonDB.bak
+Date: 05/10/11 05:48:31
+Status Code: 2000
+Error Type: BakFileCheckFailedException
+Error Details: The file to be restored (\\phx3.gdhosting.gdg\p3nwhg521\hosting\63\7856763\html\_db_backups\BrendanSeatonDB.bak) failed the security check and cannot be restored.  Files to be restored must adhere to the following guidelines: 
+	(1) Only files created through the web interface may be restored.
+	(2)Files modified after creation may not be restored.
+
+Restore Progress: 
+- Performing restore.
+- The file to be restored (\\phx3.gdhosting.gdg\p3nwhg521\hosting\63\7856763\html\_db_backups\BrendanSeatonDB.bak) failed the security check and cannot be restored.  Files to be restored must adhere to the following guidelines: 
+	(1) Only files created through the web interface may be restored.
+	(2)Files modified after creation may not be restored.
+
+**********************************************************************************

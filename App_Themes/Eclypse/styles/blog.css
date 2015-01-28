@@ -1,0 +1,163 @@
+﻿.NewsBox 
+{
+	position: absolute;
+	top: 175px;
+	right: 20px;
+	width: 250px;
+	height: 450px;
+	overflow: hidden;
+}
+
+.NewsBox IMG 
+{
+	border: none;
+}
+
+.NewsBox .Header 
+{	
+	border-bottom: solid 1px #FFFFFF;
+}
+
+.NewsBox .Header .Title
+{
+	color: #FFFFFF;
+	font-size: 1.4em;
+	font-style: italic;
+}
+
+.NewsBox .Header .Date
+{
+	color: #FFFFFF;
+	float: right;
+	font-size: 0.8em;
+	margin-top: -15px;
+}
+
+.NewsBox .Content 
+{
+	clear: both;
+	font-size: 1.2em;
+	padding: 10px 0px 10px 0px;	
+	zoom: 1;
+}
+
+.NewsBox .Console
+{
+	position: absolute;
+	width: 238px;
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #999999;
+	border: solid 1px #CCCCCC;
+	text-align: left;
+	color: #FFFFFF;
+	bottom: 0px;
+}
+
+.NewsBox .Console .Buttons
+{
+	text-align: right;
+}
+
+.NewsBox .Console .Status
+{
+	text-align: left;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+}
+
+.NewsBox .RichTextEditor 
+{
+	width: 243px;
+	height: 327px;
+}
+
+
+
+
+
+
+
+/* BLOG */
+
+.BlogEntry 
+{
+	margin-bottom: 20px;
+	border: solid 1px #333333;
+	border-top: none;
+	
+}
+
+.BlogEntry IMG 
+{
+	border: none;
+}
+
+.BlogEntry .Header 
+{
+	background: #242b3e url(../images/blogentrytitle-bkgd.gif) repeat-x top left;
+	height: 25px;
+	padding: 0px 5px 0px 5px;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+.BlogEntry .Header .Title
+{
+	float: left;
+	font-size: 1.5em;
+	
+	height: 25px;
+}
+
+.BlogEntry .Header .Date
+{
+	float: right;
+}
+
+.BlogEntry .Content 
+{
+	padding: 10px;
+	background-color: #666666;
+	zoom: 1;
+}
+
+.BlogEntry .Console
+{
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #999999;
+	border: solid 1px #CCCCCC;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.BlogEntry .Console .Buttons
+{
+	text-align: right;
+}
+
+.BlogEntry .Console .Status
+{
+	text-align: left;
+	float: left;
+	height: 25px;
+	line-height: 25px;
+}
+
+.BlogEntry .Console INPUT
+{
+	height: 20px;
+}
+
+.BlogEntry .Console .Upload 
+{
+	float: left;
+}
+
+
+.BlogEntry .RichTextEditor 
+{
+	width: 100%;
+}

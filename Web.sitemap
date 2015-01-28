@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home"  description="Home">
+    <siteMapNode url="~/About.aspx" title="About This Site"  description="About" />
+
+    <siteMapNode url="~/Blog.aspx" title="Brendan's Blog"  description="Blog" />
+
+    <siteMapNode url="~/Galleries.aspx" title="Photo Galleries"  description="Galleries" />
+
+    <siteMapNode url="~/Musings.aspx" title="Musings and Essays" description="Musings" >    
+      <siteMapNode url="~/Musings/ItStartsWithMe.aspx" title="It Starts With Me" description="It Starts With Me" />
+      <siteMapNode url="~/Musings/Eulogy.aspx" title="Eulogy for John Patrick Seaton" description="Eulogy" />
+      <siteMapNode url="~/Musings/Beijing.aspx" title="Impressions of Beijing" description="Beijing" />
+      <siteMapNode url="~/Musings/Kafka.aspx" title="Living in a Kafkaesque World: Reflections On My Life and the Writings of Franz Kafka" description="Kafka" />
+      <siteMapNode url="~/Musings/Achill01.aspx" title="The Achill Island Essays 1" description="" />
+      <siteMapNode url="~/Musings/Achill02.aspx" title="The Achill Island Essays 2" description="" />
+      <siteMapNode url="~/Musings/Achill03.aspx" title="The Achill Island Essays 3" description="" />
+      <siteMapNode url="~/Musings/Achill04.aspx" title="The Achill Island Essays 4" description="" />
+      <siteMapNode url="~/Musings/Achill05.aspx" title="The Achill Island Essays 5" description="" />
+      <siteMapNode url="~/Musings/Achill06.aspx" title="The Achill Island Essays 6" description="" />
+      <siteMapNode url="~/Musings/Achill07.aspx" title="The Achill Island Essays 7" description="" />
+      <siteMapNode url="~/Musings/Achill08.aspx" title="The Achill Island Essays 8" description="" />
+      <siteMapNode url="~/Musings/Achill09.aspx" title="The Achill Island Essays 9" description="" />
+      <siteMapNode url="~/Musings/Achill10.aspx" title="The Achill Island Essays 10" description="" />
+      <siteMapNode url="~/Musings/Achill11.aspx" title="The Achill Island Essays 11" description="" />
+    </siteMapNode>
+
+    <siteMapNode url="~/Store.aspx" title="Photos for Sale"  description="Store" />
+
+    
+    <!--<siteMapNode url="~/Publications.aspx" title="Publications and Presentations"  description="Publications" />-->
+    <siteMapNode url="~/Links.aspx" title="Brendan's Favourite Links"  description="Links" />
+    <siteMapNode url="~/Contact.aspx" title="Contact Brendan"  description="Contact" />
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DefaultLayout.master.cs" Inherits="_private_layout_DefaultLayout" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title runat="server"></title>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+    
+       
+    <div id="Header">
+        <div class="login">
+            
+        <asp:LoginView runat="server">
+            <AnonymousTemplate>
+                <asp:login ID="loginMain" CssClass="login" runat="server" DisplayRememberMe="false" TitleText="">
+                    <TextBoxStyle Font-Size="10px" Height="10px" Width="100px" />
+                    <LoginButtonStyle Height="20px" Font-Size="12px" />         
+                </asp:login>
+            </AnonymousTemplate>
+            
+            <LoggedInTemplate>            
+                <asp:loginstatus ID="loginstatus" CssClass="login" runat="server"  />
+            </LoggedInTemplate>            
+        </asp:LoginView>  
+        </div>          
+    </div>
+    
+    <div id="MainNav"> 
+    <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="homeLink" PathSeparator="|&nbsp;&nbsp;"></asp:SiteMapPath>
+    
+        <asp:Repeater runat="server" ID="siteMapAsHyperLinks" DataSourceID="smdsDefault">    
+            <ItemTemplate>
+                    <asp:HyperLink ID="hlMainMenu" runat="server" NavigateUrl='<%# Eval("Url") %>' Text='<%# Eval("Description") %>' />
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
+    
+    <div id="MainContent">
+        <h1><asp:Literal ID="litHeading" runat="server" /></h1>  
+        <asp:contentplaceholder id="cphMainContent" runat="server" />        
+    </div>
+    
+    <div id="Footer">
+        &copy; Copyright <%= System.DateTime.Now.Year.ToString() %> Brendan Seaton Productions        
+    </div>
+    
+    <asp:SiteMapDataSource ShowStartingNode="false" ID="smdsDefault" runat="server" />
+
+    </form>
+</body>
+</html>
+
